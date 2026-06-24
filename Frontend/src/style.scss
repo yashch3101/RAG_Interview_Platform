@@ -1,0 +1,49 @@
+@use "./styles/button.scss";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100vh;
+
+    background:
+        radial-gradient(
+            circle at top left,
+            rgba(255,45,120,.12),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at bottom right,
+            rgba(99,102,241,.08),
+            transparent 30%
+        ),
+        #0d1117;
+
+    color: whitesmoke;
+
+    font-family:
+        Inter,
+        system-ui,
+        sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+textarea,
+input,
+button {
+  max-width: 100%;
+}
+
+body {
+  overflow-x: hidden;
+}
