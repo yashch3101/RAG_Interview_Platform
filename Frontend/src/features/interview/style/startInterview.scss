@@ -1,0 +1,105 @@
+.start-interview {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    #0f172a,
+    #111827
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interview-card {
+  width: 500px;
+  background: #1e293b;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow:
+    0 0 40px rgba(
+      99,
+      102,
+      241,
+      0.2
+    );
+}
+
+.interview-card h1 {
+  color: white;
+  text-align: center;
+}
+
+.interview-card p {
+  color: #94a3b8;
+  text-align: center;
+}
+
+.form-group {
+  margin-top: 20px;
+}
+
+.form-group label {
+  display: block;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #334155;
+
+  color: white;
+}
+
+.upload-box {
+  margin-top: 20px;
+
+  border: 2px dashed #6366f1;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  color: white;
+}
+
+.upload-box input {
+  margin-top: 10px;
+  color: white;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+
+  padding: 14px;
+
+  border: none;
+
+  border-radius: 10px;
+
+  background: #6366f1;
+
+  color: white;
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #4f46e5;
+}

@@ -33,10 +33,21 @@ from app.services.report_generator import (
     generate_final_report
 )
 
+from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI(
     title="InterviewIQ AI"
 )
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173"
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.get("/")
 def root():
