@@ -8,3 +8,5 @@ pypdf
 groq
 python-dotenv
 langchain-huggingface
+pymongo
+python-multipart

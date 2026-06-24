@@ -22,9 +22,10 @@ def retrieve_context(query, k=5):
         allow_dangerous_deserialization=True
     )
 
-    docs = vectorstore.similarity_search(
+    docs = vectorstore.max_marginal_relevance_search(
         query=query,
-        k=k
+        k=k,
+        fetch_k=20
     )
 
     return docs
