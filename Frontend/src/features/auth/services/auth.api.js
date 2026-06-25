@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
 const api = axios.create({
-    baseURL: 'https://interviewiq-ai-nxx8.onrender.com',
+    baseURL: 'https://raginterviewiq-backend.onrender.com',
     withCredentials: true
 })
 
